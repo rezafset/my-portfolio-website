@@ -20,3 +20,8 @@
     background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(254, 107, 139) 30%, rgb(255, 142, 83) 90%) repeat scroll 0% 0%;
     /* box-shadow: rgba(255, 105, 135, 0.3) 0px 3px 5px 2px; */
 }
+
+.send-btn{
+    background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(33, 150, 243) 30%, rgb(33, 203, 243) 90%) repeat scroll 0% 0%;
+    box-shadow: rgba(33, 203, 243, 0.3) 0px 3px 5px 2px;
+}

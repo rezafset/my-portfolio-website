@@ -4,7 +4,7 @@ import profilePic from './profile.png';
 
 const About = () => {
     return (
-        <div id="about" className="mt-5">
+        <div id="about">
             <div className="container">
                 <h1 className="text-center py-5 text-uppercase" >About</h1>
                 <div className="row my-5">

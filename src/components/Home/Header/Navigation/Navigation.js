@@ -6,7 +6,7 @@ const Navigation = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" style={{ backgroundColor: '#4D5977' }}>
             <Container>
-                <Link to="/" class="navbar-brand " href="#">
+                <Link to="/" class="navbar-brand ">
                     <span className="text-white">Ahmed Reza Shah</span>
                 </Link>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
