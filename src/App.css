@@ -1,38 +1,22 @@
-.App {
-  text-align: center;
+.website-btn{
+    width: 100px;
+    background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(33, 150, 243) 30%, rgb(33, 203, 243) 90%) repeat scroll 0% 0%;
+    box-shadow: rgba(33, 203, 243, 0.3) 0px 3px 5px 2px;
+}
+.github-btn{
+    width: 100px;
+    background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(254, 107, 139) 30%, rgb(255, 142, 83) 90%) repeat scroll 0% 0%;
+    box-shadow: rgba(255, 105, 135, 0.3) 0px 3px 5px 2px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hireMe-btn{
+    width: 100px;
+    background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(33, 150, 243) 30%, rgb(33, 203, 243) 90%) repeat scroll 0% 0%;
+    /* box-shadow: rgba(33, 203, 243, 0.3) 0px 3px 5px 2px; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.download-btn{
+    width: 130px;
+    background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(254, 107, 139) 30%, rgb(255, 142, 83) 90%) repeat scroll 0% 0%;
+    /* box-shadow: rgba(255, 105, 135, 0.3) 0px 3px 5px 2px; */
 }

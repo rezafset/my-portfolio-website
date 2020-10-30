@@ -1,0 +1,15 @@
+.profile-pic{
+    height: 400px;
+}
+@media (max-width: 768px){
+    .profile-pic{
+        display:block;
+        margin:0 auto;
+    }
+}
+@media (max-width: 480px){
+    .profile-pic{
+        display:block;
+        margin:0 auto;
+    }
+}
