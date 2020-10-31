@@ -1,13 +1,12 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style={{ backgroundColor: '#4D5977' }}>
-            <Container>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top" style={{ backgroundColor: '#4D5977' }}>
+            <div className="container">
                 <Link to="/" class="navbar-brand ">
-                    <span className="text-white">Ahmed Reza Shah</span>
+                    <span className="text-white font-weight-bold">Reza Shah</span>
                 </Link>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,7 +30,7 @@ const Navigation = () => {
                         </li>
                     </ul>
                 </div>
-            </Container>
+            </div>
         </nav>
     );
 };

@@ -2,17 +2,15 @@ import React from 'react';
 import './HeaderContainer.css';
 import Typical from 'react-typical';
 import pdf from './Reza-COL-USTC-CSE.pdf'
-// import profilePic from './profile.png'
 
 const HeaderContainer = () => {
+    // d-flex justify-content-center align-items-center
     return (
-
-        <div className="container d-flex justify-content-center info-portion my-5">
+        <div className="container info-portion">
             <div class="row">
                 <div class="col-md-12 mt-5" data-aos="fade-right">
-                    <div className=" text-center mt-5 p-4">
-                        {/* <img className="profile-img img-fluid" src={profilePic} alt=""/> */}
-                        <h1 className=" mt-3">Ahmed Reza Shah</h1>
+                    <div className="text-center mt-5 p-4">
+                        <h1 className="pt-5">Ahmed Reza Shah</h1>
                         <h3>
                             <Typical
                                 loop={Infinity}
@@ -22,7 +20,7 @@ const HeaderContainer = () => {
                                     1000,
                                     'MERN Stack Developer',
                                     1000,
-                                    'JavaScript & React Enthusiast',
+                                    'React Enthusiast',
                                     1000,
                                     'Network Engineer',
                                     1000,

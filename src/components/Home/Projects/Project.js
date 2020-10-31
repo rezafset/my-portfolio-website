@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import pic1 from '../../../images/creativeagency1.PNG';
 import pic2 from '../../../images/volunteer-networ-pro.PNG';
 import pic3 from '../../../images/redOnion.PNG';
-import pic4 from '../../../images/covidtracker.PNG';
-import pic5 from '../../../images/e-school.PNG';
-import pic6 from '../../../images/hotgadgets.PNG';
+// import pic4 from '../../../images/covidtracker.PNG';
+import pic4 from '../../../images/e-school.PNG';
+import pic5 from '../../../images/hotgadgets.PNG';
 import ProjectCard from '../ProjectCard/ProjectCard';
 
 
@@ -30,6 +30,20 @@ const Project = () => {
             projectDetails: 'A responsive restaurant website using react with firebase authentication where a user can order their favorite food as required.Users have options for different categories of food like breakfast, lunch, and dinner.Before order, the user need to sign up on the website.',
             githubLink: 'https://github.com/rezafset/hot-onion-project',
             websiteLink: 'https://reza-hot-onion-food.web.app/',
+        },
+        {
+            image: pic4,
+            projectName: 'E School Website',
+            projectDetails: 'A responsive E School Website using Bootstrap where user can see different school activities. User also get information of different online courses. ',
+            githubLink: 'https://github.com/rezafset/e-school-website',
+            websiteLink: 'https://rezafset.github.io/e-school-website/',
+        },
+        {
+            image: pic5,
+            projectName: 'Ecommerce Hot Gadget',
+            projectDetails: 'A responsive eCommerce Website using Bootstrap where user can see different types of product like a mobile, laptop. Users can get detailed information. Users can see some categories of products like bags, beauty, shoes, etc.',
+            githubLink: 'https://github.com/rezafset/hot-gadgets',
+            websiteLink: 'https://rezafset.github.io/hot-gadgets/',
         },
 
     ]);
