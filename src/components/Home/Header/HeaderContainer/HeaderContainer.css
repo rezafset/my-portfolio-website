@@ -1,6 +1,9 @@
-
 .icon a i{
     font-size: 35px;
     color: #fff; 
-    padding-right: 15px;
+}
+@media (max-width: 768px){
+    .title{
+        font-size: 35px;
+    }
 }

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        <nav class="navbar navbar-expand-md navbar-light fixed-top" style={{ backgroundColor: '#4D5977' }}>
+        <nav class="navbar navbar-expand-sm navbar-light">
             <div className="container">
                 <Link to="/" class="navbar-brand ">
                     <span className="text-white font-weight-bold">Reza Shah</span>

@@ -4,13 +4,12 @@ import Typical from 'react-typical';
 import pdf from './Reza-COL-USTC-CSE.pdf'
 
 const HeaderContainer = () => {
-    // d-flex justify-content-center align-items-center
     return (
         <div className="container info-portion">
             <div class="row">
                 <div class="col-md-12 mt-5" data-aos="fade-right">
                     <div className="text-center mt-5 p-4">
-                        <h1 className="pt-5">Ahmed Reza Shah</h1>
+                        <h1 className="title">Ahmed Reza Shah</h1>
                         <h3>
                             <Typical
                                 loop={Infinity}
@@ -29,6 +28,7 @@ const HeaderContainer = () => {
                         </h3>
                         <div className="icon">
                             <a
+                            className="mr-4"
                                 href="https://github.com/rezafset"
                                 target="_blank"
                             >
@@ -38,6 +38,7 @@ const HeaderContainer = () => {
                                 ></i>
                             </a>
                             <a
+                            className="mr-4"
                                 href="https://www.linkedin.com/in/ahmed-reza-shah/"
                                 target="_blank"
                             >
@@ -47,6 +48,7 @@ const HeaderContainer = () => {
                                 ></i>
                             </a>
                             <a
+                            className="mr-4"
                                 href="https://twitter.com/ahmedrezashah"
                                 target="_blank"
                             >
