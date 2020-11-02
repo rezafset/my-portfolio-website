@@ -29,7 +29,7 @@ const Blog = () => {
                 <div className="row my-5">
                     {
                         blogInfo.map(blogInfo =>
-                            <div className="col-md-4 mb-sm-3 mb-3" data-aos="fade-up">
+                            <div className="col-lg-4 col-md-6 mb-sm-3 mb-3" data-aos="fade-up">
                                 <div className="card blog">
                                     <img class="card-img-top" src={blogInfo.img} alt="" />
                                     <div className="card-body">
